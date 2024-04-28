@@ -72,68 +72,68 @@ This repository is a Technical Assessment for Arkmind AI Engineer
 
 5. Models Evaluation and Results:
     -Best Models and Parameters:
-    -Decision Tree:
-        -Best Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
-        -Accuracy: 0.73
-        -Precision: 0.79
-        -Recall: 0.83
-        -F1-score: 0.81
+    - Decision Tree:
+        - Best Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
+        - Accuracy: 0.73
+        - Precision: 0.79
+        - Recall: 0.83
+        - F1-score: 0.81
 
-    -Random Forest:
-        -Best Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
-        -Accuracy: 0.70
-        -Precision: 0.75
-        -Recall: 0.86
-        -F1-score: 0.80
+    - Random Forest:
+        - Best Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+        - Accuracy: 0.70
+        - Precision: 0.75
+        - Recall: 0.86
+        - F1-score: 0.80
 
-    -Logistic Regression:
-        -Best Parameters: {'C': 0.001, 'penalty': 'l2', 'solver': 'liblinear'}
-        -Accuracy: 0.77
-        -Precision: 0.78
-        -Recall: 0.95
-        -F1-score: 0.85
+    - Logistic Regression:
+        - Best Parameters: {'C': 0.001, 'penalty': 'l2', 'solver': 'liblinear'}
+        - Accuracy: 0.77
+        - Precision: 0.78
+        - Recall: 0.95
+        - F1-score: 0.85
 
-    -SVC:
-        -Best Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
-        -Accuracy: 0.77
-        -Precision: 0.76
-        -Recall: 0.98
-        -F1-score: 0.86
+    - SVC:
+        - Best Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+        - Accuracy: 0.77
+        - Precision: 0.76
+        - Recall: 0.98
+        - F1-score: 0.86
 
-    -Gradient Boosting:
-        -Best Parameters: {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
-        -Accuracy: 0.71
-        -Precision: 0.75
-        -Recall: 0.88
-        -F1-score: 0.81
+    - Gradient Boosting:
+        - Best Parameters: {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+        - Accuracy: 0.71
+        - Precision: 0.75
+        - Recall: 0.88
+        - F1-score: 0.81
 
-    -K-Nearest Neighbors:
-        -Best Parameters: {'algorithm': 'auto', 'n_neighbors': 9, 'weights': 'uniform'}
-        -Accuracy: 0.77
-        -Precision: 0.76
-        -Recall: 0.97
-        -F1-score: 0.85
+    - K-Nearest Neighbors:
+        - Best Parameters: {'algorithm': 'auto', 'n_neighbors': 9, 'weights': 'uniform'}
+        - Accuracy: 0.77
+        - Precision: 0.76
+        - Recall: 0.97
+        - F1-score: 0.85
 
-    -AdaBoost:
-        -Best Parameters: {'algorithm': 'SAMME.R', 'learning_rate': 1.0, 'n_estimators': 200}
-        -Accuracy: 0.76
-        -Precision: 0.81
-        -Recall: 0.86
-        -F1-score: 0.83
+    - AdaBoost:
+        - Best Parameters: {'algorithm': 'SAMME.R', 'learning_rate': 1.0, 'n_estimators': 200}
+        - Accuracy: 0.76
+        - Precision: 0.81
+        - ecall: 0.86
+        - F1-score: 0.83
 
-    -XGBoost:
-        -Best Parameters: {'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200, 'subsample': 1.0}
-        -Accuracy: 0.70
-        -Precision: 0.75
-        -Recall: 0.87
-        -F1-score: 0.80
+    - XGBoost:
+        - Best Parameters: {'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200, 'subsample': 1.0}
+        - Accuracy: 0.70
+        - Precision: 0.75
+        - Recall: 0.87
+        - F1-score: 0.80
 
-    -LightGBM:
-        -Best Parameters: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50, 'num_leaves': 31}
-        -Accuracy: 0.75
-        -Precision: 0.79
-        -Recall: 0.87
-        -F1-score: 0.83
+    - LightGBM:
+        - Best Parameters: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50, 'num_leaves': 31}
+        - Accuracy: 0.75
+        - Precision: 0.79
+        - Recall: 0.87
+        - F1-score: 0.83
 
 5. Observations / Comments:
     - For predicting loan approval and rejection, the choice of the "best" model varies. Based off the performance metrics and typical considerations for loan approval prediction:
