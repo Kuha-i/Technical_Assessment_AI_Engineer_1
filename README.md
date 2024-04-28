@@ -19,7 +19,7 @@ This repository is a Technical Assessment for Arkmind AI Engineer
         - 230 rows of 0 values in ela and financeAmount
         - 2 Outliers within netSalary and ela
 
-        <img src="images/outlier.png" alt="outlier" width="480" height="480">
+        <img src="images/outlier.png" alt="outlier" width="680" height="680">
 
 2. Data Preprocessing
     - Drop data rows with NaN and 0 values.
@@ -34,26 +34,26 @@ This repository is a Technical Assessment for Arkmind AI Engineer
     - Created graphs to better understand the data.
     - Scatter Plot of Approved and Rejected Applicants based off netSalary & ela
 
-    <img src="images/scatterplot.png" alt="outlier" width="480" height="480">
+    <img src="images/scatterplot.png" alt="outlier" width="680" height="680">
 
     - Bar chart of Loan Reason
-    <img src="images/barchart.png" alt="outlier" width="480" height="480">
+    <img src="images/barchart.png" alt="outlier" width="1340" height="680">
 
     - Find relationship between loanApplied & ela on scatter plot with line of best fit (group by applicationStatus)
 
-    <img src="images/lineofbest1.png" alt="outlier" width="480" height="480">
+    <img src="images/lineofbest1.png" alt="outlier" width="1340" height="680">
 
     - Find relationship between loanApplied & netSalary on scatter plot with line of best fit (group by applicationStatus)
 
-    <img src="images/lineofbest2.png" alt="outlier" width="480" height="480">
+    <img src="images/lineofbest2.png" alt="outlier" width="1340" height="680">
 
     - Find trends / behaviors with clustering with netSalary & ela (group by applicationStatus)
 
-    <img src="images/cluster.png" alt="outlier" width="480" height="480">
+    <img src="images/cluster.png" alt="outlier" width="1340" height="680">
 
     - Create Correlation Matrix 
 
-    <img src="images/correlation_matrix.png" alt="outlier" width="480" height="480">
+    <img src="images/correlation_matrix.png" alt="outlier" width="680" height="680">
 
 
 4. Model Training
