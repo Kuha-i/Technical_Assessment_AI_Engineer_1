@@ -150,4 +150,5 @@ This repository is a Technical Assessment for Arkmind AI Engineer
             - False Positives (Predicting approval when it should be rejection): Critical for risk assessment as approving a risky loan can lead to financial losses.
             - False Negatives (Predicting rejection when it should be approval): Can result in missed opportunities and customer dissatisfaction.
 
-    - Logistic Regression, KNN & SVC, these models provided a good balance between correctly identifying loan approvals (high recall) and minimizing false positives (reasonable precision).
+    - Logistic Regression, KNN & SVC, these models provided a good balance between correctly identifying loan approvals (high recall) and minimizing false positives (high precision).
+    - Majority of models could not achieve an acurarcy higher than 0.77, along with that majority of the correlation matrix was very unbalanced when tested, to combat this the data should be further balanced.
