@@ -135,7 +135,7 @@ This repository is a Technical Assessment for Arkmind AI Engineer
         - Recall: 0.87
         - F1-score: 0.83
 
-5. Observations / Comments:
+## Observations / Comments:
     - For predicting loan approval and rejection, the choice of the "best" model varies. Based off the performance metrics and typical considerations for loan approval prediction:
 
         - Precision vs. Recall Trade-off:
