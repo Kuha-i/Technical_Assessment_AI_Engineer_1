@@ -18,6 +18,7 @@ This repository is a Technical Assessment for Arkmind AI Engineer
         - 61 rows of null on ela and financeAmount
         - 230 rows of 0 values in ela and financeAmount
         - 2 Outliers within netSalary and ela
+
         <img src="images/outlier.png" alt="outlier" width="280" height="280">
 
 2. Data Preprocessing
@@ -32,19 +33,28 @@ This repository is a Technical Assessment for Arkmind AI Engineer
 3. Feature Understanding
     - Created graphs to better understand the data.
     - Scatter Plot of Approved and Rejected Applicants based off netSalary & ela
+
     <img src="images/scatterplot.png" alt="outlier" width="280" height="280">
+
     - Bar chart of Loan Reason
     <img src="images/barchart.png" alt="outlier" width="280" height="280">
+
     - Find relationship between loanApplied & ela on scatter plot with line of best fit (group by applicationStatus)
+
     <img src="images/lineofbest1.png" alt="outlier" width="280" height="280">
+
     - Find relationship between loanApplied & netSalary on scatter plot with line of best fit (group by applicationStatus)
+
     <img src="images/lineofbest2.png" alt="outlier" width="280" height="280">
+
     - Find trends / behaviors with clustering with netSalary & ela (group by applicationStatus)
+
     <img src="images/cluster.png" alt="outlier" width="280" height="280">
+
     - Create Correlation Matrix 
+
     <img src="images/correlation_matrix.png" alt="outlier" width="280" height="280">
 
-3. 
 
 4. Model Training
     - Due to the small dataset, multiple classification models can be tested.
